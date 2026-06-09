@@ -1,5 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Hero } from "@/components/Hero";
+import { Services } from "@/components/Services";
+import { Projects } from "@/components/Projects";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -15,5 +17,11 @@ export const Route = createFileRoute("/")({
 
 // IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
-  return <Hero />;
+  return (
+    <>
+      <Hero />
+      <Services />
+      <Projects />
+    </>
+  );
 }
