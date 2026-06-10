@@ -55,7 +55,7 @@ export function CTA() {
 
             <div className="mt-8 flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
               <a
-                href="https://t.me/"
+                href="https://t.me/test_bezz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center gap-2 rounded-full px-7 py-4 text-sm font-semibold text-white transition-transform hover:scale-[1.02]"
@@ -69,7 +69,7 @@ export function CTA() {
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
               </a>
               <a
-                href="mailto:hello@example.com"
+                href="mailto:testbezz_gmail.com"
                 className="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 bg-white/5 px-7 py-4 text-sm font-semibold text-foreground backdrop-blur transition-colors hover:bg-white/10"
                 style={{ boxShadow: "var(--glow-purple)" }}
               >
