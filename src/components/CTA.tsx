@@ -2,7 +2,7 @@ import { Send, Mail, ArrowRight } from "lucide-react";
 
 export function CTA() {
   return (
-    <section className="relative overflow-hidden bg-background py-20 lg:py-28">
+    <section id="contact" className="relative overflow-hidden bg-background py-20 lg:py-28 scroll-mt-16">
       <div className="pointer-events-none absolute inset-0">
         <div
           className="absolute -top-20 left-1/4 h-[400px] w-[400px] rounded-full opacity-20 blur-3xl"

@@ -39,19 +39,21 @@ export function Hero() {
             </p>
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <button
+              <a
+                href="#projects"
                 className="group inline-flex items-center justify-center gap-2 rounded-full px-7 py-4 text-sm font-semibold text-white transition-transform hover:scale-[1.02]"
                 style={{ background: "var(--gradient-orange)", boxShadow: "var(--glow-orange)" }}
               >
                 Посмотреть проекты
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-              </button>
-              <button
+              </a>
+              <a
+                href="#contact"
                 className="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/5 px-7 py-4 text-sm font-semibold text-foreground backdrop-blur transition-colors hover:bg-white/10"
                 style={{ boxShadow: "var(--glow-purple)" }}
               >
                 Связаться
-              </button>
+              </a>
             </div>
 
             <div className="mt-10 grid grid-cols-2 gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-5 backdrop-blur sm:grid-cols-4">
