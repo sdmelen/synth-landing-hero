@@ -2,7 +2,7 @@ import { ArrowRight, Briefcase, Code2, Target, Star, LayoutDashboard, BarChart3,
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen overflow-hidden bg-background text-foreground">
+    <section className="relative min-h-screen overflow-x-clip bg-background text-foreground">
       {/* Ambient glows */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -top-40 -left-40 h-[500px] w-[500px] rounded-full opacity-30 blur-3xl" style={{ background: "var(--neon-purple)" }} />

@@ -54,7 +54,7 @@ const services: Service[] = [
 
 export function Services() {
   return (
-    <section className="relative overflow-hidden bg-background py-20 lg:py-28">
+    <section className="relative overflow-x-clip bg-background py-20 lg:py-28">
       <div className="pointer-events-none absolute inset-0">
         <div
           className="absolute top-0 left-1/4 h-[400px] w-[400px] rounded-full opacity-15 blur-3xl"
