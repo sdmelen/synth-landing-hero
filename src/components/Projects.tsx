@@ -41,7 +41,7 @@ const projects: Project[] = [
 
 export function Projects() {
   return (
-    <section id="projects" className="relative overflow-hidden bg-background py-20 lg:py-28 scroll-mt-16">
+    <section id="projects" className="relative overflow-x-clip bg-background py-20 lg:py-28 scroll-mt-16">
       <div className="pointer-events-none absolute inset-0">
         <div
           className="absolute -top-32 right-1/4 h-[400px] w-[400px] rounded-full opacity-20 blur-3xl"

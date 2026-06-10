@@ -41,7 +41,7 @@ const steps: Step[] = [
 
 export function Process() {
   return (
-    <section className="relative overflow-hidden bg-background py-20 lg:py-28">
+    <section className="relative overflow-x-clip bg-background py-20 lg:py-28">
       <div className="pointer-events-none absolute inset-0">
         <div
           className="absolute top-1/2 left-1/2 h-[400px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full opacity-10 blur-3xl"
